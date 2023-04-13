@@ -20,6 +20,11 @@ class XylophoneApp extends StatelessWidget {
       Colors.purpleAccent
     ];
 
+    void playSound(int i) {
+      final player = AudioPlayer();
+      player.play(AssetSource('assets_note$i.wav'));
+    }
+
     return MaterialApp(
       home: Scaffold(
         body: SafeArea(
@@ -28,8 +33,7 @@ class XylophoneApp extends StatelessWidget {
               for (int i = 1; i < 8; i++)
                 TextButton(
                   onPressed: () {
-                    final player = AudioPlayer();
-                    player.play(AssetSource('assets_note$i.wav'));
+                    playSound(i);
                   },
                   style: TextButton.styleFrom(
                     backgroundColor: colors[i - 1],
