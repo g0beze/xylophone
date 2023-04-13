@@ -19,7 +19,7 @@ class XylophoneApp extends StatelessWidget {
               TextButton(
                 onPressed: () {
                   final player = AudioPlayer();
-                  player.setSource(AssetSource('assets_note1.wav'));
+                  player.play(AssetSource('assets_note1.wav'));
                 },
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.redAccent,
@@ -29,7 +29,7 @@ class XylophoneApp extends StatelessWidget {
               TextButton(
                 onPressed: () {
                   final player = AudioPlayer();
-                  player.setSource(AssetSource('assets_note2.wav'));
+                  player.play(AssetSource('assets_note2.wav'));
                 },
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.orangeAccent,
@@ -39,7 +39,7 @@ class XylophoneApp extends StatelessWidget {
               TextButton(
                 onPressed: () {
                   final player = AudioPlayer();
-                  player.setSource(AssetSource('assets_note3.wav'));
+                  player.play(AssetSource('assets_note3.wav'));
                 },
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.yellowAccent,
@@ -49,7 +49,7 @@ class XylophoneApp extends StatelessWidget {
               TextButton(
                 onPressed: () {
                   final player = AudioPlayer();
-                  player.setSource(AssetSource('assets_note4.wav'));
+                  player.play(AssetSource('assets_note4.wav'));
                 },
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.greenAccent,
@@ -59,7 +59,7 @@ class XylophoneApp extends StatelessWidget {
               TextButton(
                 onPressed: () {
                   final player = AudioPlayer();
-                  player.setSource(AssetSource('assets_note5.wav'));
+                  player.play(AssetSource('assets_note5.wav'));
                 },
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.black12,
@@ -69,7 +69,7 @@ class XylophoneApp extends StatelessWidget {
               TextButton(
                 onPressed: () {
                   final player = AudioPlayer();
-                  player.setSource(AssetSource('assets_note6.wav'));
+                  player.play(AssetSource('assets_note6.wav'));
                 },
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.blueAccent,
@@ -79,7 +79,7 @@ class XylophoneApp extends StatelessWidget {
               TextButton(
                 onPressed: () {
                   final player = AudioPlayer();
-                  player.setSource(AssetSource('assets_note7.wav'));
+                  player.play(AssetSource('assets_note7.wav'));
                 },
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.purpleAccent,
