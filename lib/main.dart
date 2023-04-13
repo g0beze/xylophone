@@ -27,18 +27,23 @@ class XylophoneApp extends StatelessWidget {
 
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               for (int i = 1; i < 8; i++)
-                TextButton(
-                  onPressed: () {
-                    playSound(i);
-                  },
-                  style: TextButton.styleFrom(
-                    backgroundColor: colors[i - 1],
+                Expanded(
+                  child: TextButton(
+                    onPressed: () {
+                      playSound(i);
+                    },
+                    style: TextButton.styleFrom(
+                      backgroundColor: colors[i - 1],
+                    ),
+                    child: const Text(''),
                   ),
-                  child: const Text(''),
                 ),
             ],
           ),
