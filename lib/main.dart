@@ -16,62 +16,76 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             children: [
               // for (int i = 1; i < 8; i++)
-                TextButton(
-                  onPressed: () {
-                    final player = AudioPlayer();
-                    player.setSource(AssetSource('assets_note1.wav'));
-                  },
-                  child: const Text('Click Me'),
+              TextButton(
+                onPressed: () {
+                  final player = AudioPlayer();
+                  player.setSource(AssetSource('assets_note1.wav'));
+                },
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.redAccent,
                 ),
-                                TextButton(
-                  onPressed: () {
-                    final player = AudioPlayer();
-                    player.setSource(AssetSource('assets_note1.wav'));
-                  },
-                  child: const Text('Click Me'),
+                child: const Text(''),
+              ),
+              TextButton(
+                onPressed: () {
+                  final player = AudioPlayer();
+                  player.setSource(AssetSource('assets_note2.wav'));
+                },
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.orangeAccent,
                 ),
-                                TextButton(
-                  onPressed: () {
-                    final player = AudioPlayer();
-                    player.setSource(AssetSource('assets_note1.wav'));
-                  },
-                  child: const Text('Click Me'),
+                child: const Text(''),
+              ),
+              TextButton(
+                onPressed: () {
+                  final player = AudioPlayer();
+                  player.setSource(AssetSource('assets_note3.wav'));
+                },
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.yellowAccent,
                 ),
-                                TextButton(
-                  onPressed: () {
-                    final player = AudioPlayer();
-                    player.setSource(AssetSource('assets_note1.wav'));
-                  },
-                  child: const Text('Click Me'),
+                child: const Text(''),
+              ),
+              TextButton(
+                onPressed: () {
+                  final player = AudioPlayer();
+                  player.setSource(AssetSource('assets_note4.wav'));
+                },
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.greenAccent,
                 ),
-                                TextButton(
-                  onPressed: () {
-                    final player = AudioPlayer();
-                    player.setSource(AssetSource('assets_note1.wav'));
-                  },
-                  child: const Text('Click Me'),
+                child: const Text(''),
+              ),
+              TextButton(
+                onPressed: () {
+                  final player = AudioPlayer();
+                  player.setSource(AssetSource('assets_note5.wav'));
+                },
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.black12,
                 ),
-                                TextButton(
-                  onPressed: () {
-                    final player = AudioPlayer();
-                    player.setSource(AssetSource('assets_note1.wav'));
-                  },
-                  child: const Text('Click Me'),
+                child: const Text(''),
+              ),
+              TextButton(
+                onPressed: () {
+                  final player = AudioPlayer();
+                  player.setSource(AssetSource('assets_note6.wav'));
+                },
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.blueAccent,
                 ),
-                                TextButton(
-                  onPressed: () {
-                    final player = AudioPlayer();
-                    player.setSource(AssetSource('assets_note1.wav'));
-                  },
-                  child: const Text('Click Me'),
+                child: const Text(''),
+              ),
+              TextButton(
+                onPressed: () {
+                  final player = AudioPlayer();
+                  player.setSource(AssetSource('assets_note7.wav'));
+                },
+                style: TextButton.styleFrom(
+                  foregroundColor: Colors.purpleAccent,
                 ),
-                                TextButton(
-                  onPressed: () {
-                    final player = AudioPlayer();
-                    player.setSource(AssetSource('assets_note1.wav'));
-                  },
-                  child: const Text('Click Me'),
-                ),
+                child: const Text(''),
+              ),
             ],
           ),
         ),
