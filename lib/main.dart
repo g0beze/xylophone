@@ -22,7 +22,7 @@ class XylophoneApp extends StatelessWidget {
                   player.setSource(AssetSource('assets_note1.wav'));
                 },
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.redAccent,
+                  backgroundColor: Colors.redAccent,
                 ),
                 child: const Text(''),
               ),
@@ -32,7 +32,7 @@ class XylophoneApp extends StatelessWidget {
                   player.setSource(AssetSource('assets_note2.wav'));
                 },
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.orangeAccent,
+                  backgroundColor: Colors.orangeAccent,
                 ),
                 child: const Text(''),
               ),
@@ -42,7 +42,7 @@ class XylophoneApp extends StatelessWidget {
                   player.setSource(AssetSource('assets_note3.wav'));
                 },
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.yellowAccent,
+                  backgroundColor: Colors.yellowAccent,
                 ),
                 child: const Text(''),
               ),
@@ -52,7 +52,7 @@ class XylophoneApp extends StatelessWidget {
                   player.setSource(AssetSource('assets_note4.wav'));
                 },
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.greenAccent,
+                  backgroundColor: Colors.greenAccent,
                 ),
                 child: const Text(''),
               ),
@@ -62,7 +62,7 @@ class XylophoneApp extends StatelessWidget {
                   player.setSource(AssetSource('assets_note5.wav'));
                 },
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.black12,
+                  backgroundColor: Colors.black12,
                 ),
                 child: const Text(''),
               ),
@@ -72,7 +72,7 @@ class XylophoneApp extends StatelessWidget {
                   player.setSource(AssetSource('assets_note6.wav'));
                 },
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.blueAccent,
+                  backgroundColor: Colors.blueAccent,
                 ),
                 child: const Text(''),
               ),
@@ -82,7 +82,7 @@ class XylophoneApp extends StatelessWidget {
                   player.setSource(AssetSource('assets_note7.wav'));
                 },
                 style: TextButton.styleFrom(
-                  foregroundColor: Colors.purpleAccent,
+                  backgroundColor: Colors.purpleAccent,
                 ),
                 child: const Text(''),
               ),
