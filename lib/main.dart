@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 
-void main() {
+/* void main() {
   runApp(const XylophoneApp());
-}
+} */
+
+//arrow syntax, fat arrow
+void main() => runApp(const XylophoneApp());
 
 class XylophoneApp extends StatelessWidget {
   const XylophoneApp({super.key});
